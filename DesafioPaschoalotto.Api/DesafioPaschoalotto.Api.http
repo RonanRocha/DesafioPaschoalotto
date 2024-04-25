@@ -1,0 +1,6 @@
+@DesafioPaschoalotto.Api_HostAddress = http://localhost:5034
+
+GET {{DesafioPaschoalotto.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioPaschoalotto.Domain", "DesafioPaschoalotto.Domain\DesafioPaschoalotto.Domain.csproj", "{1CEC2A92-C8C0-49B8-85C2-A6688E8F108B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioPaschoalotto.Infrastructure", "DesafioPaschoalotto.Infrastructure\DesafioPaschoalotto.Infrastructure.csproj", "{920AB5E2-CCCF-4D5E-A3A9-17DC45DE05C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioPaschoalotto.Application", "DesafioPaschoalotto.Application\DesafioPaschoalotto.Application.csproj", "{35C679BC-402A-4B76-80A6-14F639972187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioPaschoalotto.Test", "DesafioPaschoalotto.Test\DesafioPaschoalotto.Test.csproj", "{C6435A63-A26A-4F18-93AD-29094F1F339B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioPaschoalotto.Api", "DesafioPaschoalotto.Api\DesafioPaschoalotto.Api.csproj", "{DA18B4E3-5254-4E5D-B2C8-FB97AAD847C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioPaschoalotto.IoC", "DesafioPaschoalotto.IoC\DesafioPaschoalotto.IoC.csproj", "{6DC7EBD8-D9C6-4320-A534-CB51B907AC85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CEC2A92-C8C0-49B8-85C2-A6688E8F108B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CEC2A92-C8C0-49B8-85C2-A6688E8F108B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CEC2A92-C8C0-49B8-85C2-A6688E8F108B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CEC2A92-C8C0-49B8-85C2-A6688E8F108B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920AB5E2-CCCF-4D5E-A3A9-17DC45DE05C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920AB5E2-CCCF-4D5E-A3A9-17DC45DE05C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920AB5E2-CCCF-4D5E-A3A9-17DC45DE05C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920AB5E2-CCCF-4D5E-A3A9-17DC45DE05C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C679BC-402A-4B76-80A6-14F639972187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C679BC-402A-4B76-80A6-14F639972187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C679BC-402A-4B76-80A6-14F639972187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C679BC-402A-4B76-80A6-14F639972187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6435A63-A26A-4F18-93AD-29094F1F339B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6435A63-A26A-4F18-93AD-29094F1F339B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6435A63-A26A-4F18-93AD-29094F1F339B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6435A63-A26A-4F18-93AD-29094F1F339B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA18B4E3-5254-4E5D-B2C8-FB97AAD847C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA18B4E3-5254-4E5D-B2C8-FB97AAD847C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA18B4E3-5254-4E5D-B2C8-FB97AAD847C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA18B4E3-5254-4E5D-B2C8-FB97AAD847C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC7EBD8-D9C6-4320-A534-CB51B907AC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC7EBD8-D9C6-4320-A534-CB51B907AC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC7EBD8-D9C6-4320-A534-CB51B907AC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC7EBD8-D9C6-4320-A534-CB51B907AC85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DA44F51-7D57-4172-B59A-F6F7F2F1149D}
+	EndGlobalSection
+EndGlobal
