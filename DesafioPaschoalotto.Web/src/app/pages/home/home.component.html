@@ -1,0 +1,33 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col"><button class="btn btn-success" (click)="onExportExcel()">Export Excel</button></div>
+    </div>
+
+    <div class="row mt-1">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">Id</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">BirthDate</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of users">
+                    <th><img src="{{user.imagePath}}" class="rounded" alt="..."></th>
+                    <th scope="row">{{user.id}}</th>
+                    <td>{{user.title}}</td>
+                    <td>{{user.name}}</td>
+                    <td>{{user.email}}</td>
+                    <td>{{user.birthDate | date: 'dd/MM/yyyy' }}</td>
+                    <td><a class="btn btn-primary" [routerLink]="['/detail', user.id]">Edit</a></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
