@@ -17,3 +17,8 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+  app:
+    image: nginx:alpine
+    build: ./DesafioPaschoalotto.Web/
+    ports:
+      - "8080:80"
